@@ -9,8 +9,7 @@ A simple **word guessing game** built using **Pygame**. Players attempt to guess
 
 ---
 
-<br>
-<h2>🎮 Features</h2>
+## 🎮 Features
 
 - _Difficulty Levels:_ Choose between Easy (6 attempts), Medium (4 attempts), and Hard (3 attempts).
 
@@ -21,7 +20,8 @@ A simple **word guessing game** built using **Pygame**. Players attempt to guess
 - _Word Validation:_ Ensures only valid words from the word list are accepted.
 
 <br>
-<h2> 🛠️ Installation</h2>
+
+## 🛠️ Installation
 
 1. **Clone the repository**:
    ```bash
@@ -47,3 +47,45 @@ A simple **word guessing game** built using **Pygame**. Players attempt to guess
    ```bash
    python app.py
    ```
+
+<br>
+
+## 🎨 How to Play
+
+1. **Launch the game** by running `python app.py`
+
+2. **Select a difficulty**
+    - 6 tries --> Easy
+    - 4 tries --> Medium
+    - 3 tries --> Hard
+   
+3. **Guess the word**
+    - Click letters on the on-screen keyboard.
+    - Letters turn _green_ (correct & in right position), _yellow_ (in the word but wrong position), or _gray_ (not in the word).
+    - Press **Enter** to submit your guess, or **Del** if you need to backspace.
+  
+4. **Win or Lose**
+    - Guess the word within the allowed attempts to win! 🎉
+    - If you run out of attempts, the correct word is revealed. 
+
+<br>
+
+## 📂 Project Structure
+
+```bash
+word-guessing-game/
+│── game/               # Main game logic and assets
+│   ├── assets.py       # Loads game assets (images, buttons)
+│   ├── config.py       # Stores configuration values (colors, screen size)
+│   ├── draw.py         # Handles game rendering and drawing
+│   ├── settings.py     # Initializes fonts and Pygame settings
+│   ├── states.py       # Manages game states and logic
+│   ├── ui.py           # Button handling and UI elements
+│   ├── wordlist.py     # Loads and selects words for the game
+│   ├── assets/         # Contains images and UI assets
+│── .gitignore          # Specifies files to ignore in Git
+│── app.py              # Main entry point to start the game
+│── words.txt           # List of words for the game
+│── requirements.txt    # Required dependencies (Pygame)
+│── README.md           # Documentation
+```
