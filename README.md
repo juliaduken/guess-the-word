@@ -4,5 +4,5 @@ A simple **word guessing game** built using **Pygame**. Players attempt to guess
 
 ---
 <a href="https://gifyu.com/image/b2A1T">
-    <img src="https://s3.gifyu.com/images/b2A1T.gif" width="100" height="20">
+    <img src="https://s3.gifyu.com/images/b2A1T.gif" width="300" height="300">
 </a>
