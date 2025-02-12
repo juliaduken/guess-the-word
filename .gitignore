@@ -1,0 +1,20 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Android-related files
+android/
+
+# Ignore build folders
+build/
+game_build/
+
+# Ignore generated artifacts
+app.spec
+game_build.zip
+
+# Ignore setup scripts
+setup.bat
+setup.py
+
+# General ignores (optional but useful)
+__pycache__/
