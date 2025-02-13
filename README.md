@@ -78,8 +78,8 @@ word-guessing-game/
 │   ├── config.py       # Stores configuration values (colors, screen size)
 │   ├── draw.py         # Handles game rendering and drawing
 │   ├── settings.py     # Initializes fonts and Pygame settings
-│   ├── states.py       # Manages game states and logic
-│   ├── ui.py           # Button handling and UI elements
+│   ├── states.py       # Manages game states and keyboard logic
+│   ├── ui.py           # Button handling
 │   ├── wordlist.py     # Loads and selects words for the game
 │   ├── assets/         # Contains images and UI assets
 │── .gitignore          # Specifies files to ignore in Git
