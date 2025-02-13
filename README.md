@@ -26,7 +26,6 @@ A simple **word guessing game** built using **Pygame**. Players attempt to guess
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/juliaduken/guess-the-word.git
-   cd word-guessing-game
    ```
 2. **Create a virtual environment** (optional but recommended):
    <br>_For Windows_
